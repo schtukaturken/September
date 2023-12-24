@@ -1,0 +1,18 @@
+gitpod /workspace/September (main) $ cd 3
+gitpod /workspace/September/3 (main) $ mkdir users
+gitpod /workspace/September/3 (main) $ mkdir features
+gitpod /workspace/September/3 (main) $ mkdir games
+gitpod /workspace/September/3 (main) $ cd users
+gitpod /workspace/September/3/users (main) $ for i in {1..3}; do touch user${i}; done
+gitpod /workspace/September/3/users (main) $ cd ..
+gitpod /workspace/September/3 (main) $ cd features
+gitpod /workspace/September/3/features (main) $ for i in {1..3}; do touch feature${i}; done
+gitpod /workspace/September/3/features (main) $ cd ..
+gitpod /workspace/September/3 (main) $ cd games
+gitpod /workspace/September/3/games (main) $ for i in {1..3}; do touch game${i}; done
+gitpod /workspace/September/3/games (main) $ cd ..
+gitpod /workspace/September/3 (main) $ cp -rv features/. games
+'features/./feature1' -> 'games/./feature1'
+'features/./feature2' -> 'games/./feature2'
+'features/./feature3' -> 'games/./feature3'
+gitpod /workspace/September/3 (main) $ 
