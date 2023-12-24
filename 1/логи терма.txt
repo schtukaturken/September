@@ -1,0 +1,15 @@
+gitpod /workspace/September (main) $ cd 1
+gitpod /workspace/September/1 (main) $ mkdir users
+gitpod /workspace/September/1 (main) $ mkdir groups
+gitpod /workspace/September/1 (main) $ mkdir subjects
+gitpod /workspace/September/1 (main) $ cd users
+gitpod /workspace/September/1/users (main) $ for i in {1..204}; do touch user${i}; done
+gitpod /workspace/September/1/users (main) $ cd -
+gitpod/workspace/September/1 (main) $ mkdir subjects
+gitpod /workspace/September/1 (main) $ cd groups
+gitpod /workspace/September/1/groups (main) $ for i in {1..204}; do touch group${i}; done
+gitpod /workspace/September/1/groups (main) $ cd -
+/workspace/September/1
+gitpod /workspace/September/1 (main) $ cd subjects
+gitpod /workspace/September/1/subjects (main) $ for i in {1..50}; do touch subject${i}; done
+gitpod /workspace/September/1/subjects (main) $ 
