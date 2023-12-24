@@ -1,0 +1,29 @@
+gitpod /workspace/September (main) $ cd 2
+gitpod /workspace/September/2 (main) $ cd example
+gitpod /workspace/September/2/example (main) $ for i in {1..879}; do touch example${i}; done
+gitpod /workspace/September/2/example (main) $ cd ..
+gitpod /workspace/September/2 (main) $ mkdir home
+gitpod /workspace/September/2 (main) $ cd home
+gitpod /workspace/September/2/home (main) $ mkdir user1
+gitpod /workspace/September/2/home (main) $ mkdir user2
+gitpod /workspace/September/2/home (main) $ mkdir user3
+gitpod /workspace/September/2/home (main) $ mkdir user4
+gitpod /workspace/September/2/home (main) $ mkdir user5
+gitpod /workspace/September/2/home (main) $ cd user1
+gitpod /workspace/September/2/home/user1 (main) $ mkdir files
+gitpod /workspace/September/2/home/user1 (main) $ mkdir photos
+gitpod /workspace/September/2/home/user1 (main) $ mkdir videos
+gitpod /workspace/September/2/home/user1 (main) $ cd files
+gitpod /workspace/September/2/home/user1/files (main) $ for i in {1..30}; do touch file${i}; done
+gitpod /workspace/September/2/home/user1/files (main) $ cd ..
+gitpod /workspace/September/2/home/user1 (main) $ cd photos
+gitpod /workspace/September/2/home/user1/photos (main) $ for i in {1..179}; do touch photo${i}; done
+gitpod /workspace/September/2/home/user1/photos (main) $ cd ..
+gitpod /workspace/September/2/home/user1 (main) $ cd videos
+gitpod /workspace/September/2/home/user1/videos (main) $ for i in {1..29}; do touch video${i}; done
+gitpod /workspace/September/2/home/user1/videos (main) $ cd ..
+gitpod /workspace/September/2/home/user1 (main) $ cd ..
+gitpod /workspace/September/2/home (main) $ cp -r user1/. user2
+gitpod /workspace/September/2/home (main) $ cp -r user1/. user3
+gitpod /workspace/September/2/home (main) $ cp -r user1/. user4
+gitpod /workspace/September/2/home (main) $ cp -r user1/. user5
